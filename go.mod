@@ -37,7 +37,7 @@ require (
 	github.com/buildpacks/pack v0.23.0
 	github.com/cenkalti/backoff/v4 v4.1.1
 	github.com/docker/cli v20.10.11+incompatible
-	github.com/docker/distribution v2.7.1+incompatible
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/docker v20.10.11+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/dustin/go-humanize v1.0.0
@@ -108,6 +108,8 @@ require (
 	sigs.k8s.io/yaml v1.2.0
 )
 
+require github.com/containerd/containerd v1.5.8
+
 require (
 	4d63.com/embedfiles v0.0.0-20190311033909-995e0740726f // indirect
 	cloud.google.com/go v0.97.0 // indirect
@@ -136,7 +138,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
-	github.com/containerd/containerd v1.5.8 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.10.1 // indirect
 	github.com/containerd/ttrpc v1.1.0 // indirect
 	github.com/containerd/typeurl v1.0.2 // indirect
